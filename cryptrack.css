@@ -1,0 +1,37 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  padding: 5px;
+}
+#theme{
+    cursor: pointer;
+}
+:root{
+    --primcol:  azure;
+    --seccol: #212121;
+    --btnbgnd:rgba(235, 241, 241, 0.992);
+    --bdr : 1px solid gray;
+}
+.btn{
+    background-color: var(--btnbgnd);
+    border: var(--bdr);
+}
+.secondarycolor{
+    color: var(--seccol);
+}
+.primarycolor{
+    background-color: var(--primcol);
+}
+.btndark{
+    border: var(--bdr);
+}
+.dark-theme{
+    --primcol: #212121;
+    --seccol: azure;
+    --btnbgnd:  #2d2a2a;
+    --bdr: 1px solid white;
+}
+
